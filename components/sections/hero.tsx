@@ -51,24 +51,7 @@ export function HeroSection() {
         </div>
 
        {/* 6 audience preview cards - 2x3 grid */}
-<div className="grid grid-cols-2 gap-3 mb-12 px-2">
-  {[
-    "Родители",
-    "Абитуриенты", 
-    "Студенты 1 курса",
-    "Студенты 2–4 курса",
-    "Администрация",
-    "Преподаватели"
-  ].map((item, i) => (
-    <div 
-      key={item}
-      className="glass-card rounded-2xl px-4 py-4 transition-all duration-300 animate-float"
-      style={{ animationDelay: `${i * 0.2}s` }}
-    >
-      <p className="text-white/90 text-sm font-medium leading-snug">{item}</p>
-    </div>
-  ))}
-</div>
+
 
         {/* Scroll indicator */}
         <button 
